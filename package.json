@@ -1,0 +1,30 @@
+{
+  "name": "my-blog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@zerodevx/svelte-toast": "^0.9.5",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "svelte": "^4.2.18",
+    "tailwind-merge": "^2.5.5",
+    "tailwind-variants": "^0.3.0",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.3.4",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "query-string": "^9.1.0",
+    "svelte-routing": "^2.13.0",
+    "svelte-simple-modal": "^1.6.2",
+    "uuid": "^10.0.0"
+  }
+}
